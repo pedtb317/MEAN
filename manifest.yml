@@ -1,0 +1,10 @@
+applications:
+- services:
+  - mongolab
+  disk_quota: 1024M
+  host: meanjs-ped
+  name: MEANJS-Ped
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
