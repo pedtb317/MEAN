@@ -16,7 +16,7 @@ if (mongo) {
     console.log(mongo);
     if (mongo.uri) {
     console.log(mongo.uri);
-      conn_str = 'mongodb://IbmCloud_54fq4jee_9ggpruj0_nvhcft5k:Ue4UBblFBx7ZC3Ahfrx4aTfsGQKjA8Mr@ds055200.mongolab.com:55200/IbmCloud_54fq4jee_9ggpruj0';
+      conn_str = mongo.uri;
       
       console.log(conn_str);
     } else {
